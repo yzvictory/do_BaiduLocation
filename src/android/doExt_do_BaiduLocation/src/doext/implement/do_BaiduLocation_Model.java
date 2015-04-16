@@ -1,4 +1,4 @@
-package extimplement;
+package doext.implement;
 
 import com.baidu.location.BDLocation;
 import com.baidu.location.BDLocationListener;
@@ -11,7 +11,7 @@ import core.helper.jsonparse.DoJsonNode;
 import core.interfaces.DoIScriptEngine;
 import core.object.DoInvokeResult;
 import core.object.DoSingletonModule;
-import extdefine.do_BaiduLocation_IMethod;
+import doext.define.do_BaiduLocation_IMethod;
 
 /**
  * 自定义扩展SM组件Model实现，继承DoSingletonModule抽象类，并实现do_BaiduLocation_IMethod接口方法；
