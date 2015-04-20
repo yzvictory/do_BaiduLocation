@@ -5,3 +5,4 @@ gen/
 .settings/
 proguard/
 /src/android/doExt_do_BaiduLocation/do_BaiduLocation.zip
+*.classpath
