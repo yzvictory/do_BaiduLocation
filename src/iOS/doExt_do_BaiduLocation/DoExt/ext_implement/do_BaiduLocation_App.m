@@ -9,6 +9,7 @@
 #import "do_BaiduLocation_App.h"
 
 @implementation do_BaiduLocation_App
+@synthesize ThridPartyID;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     BMKMapManager *_mapManager = [[BMKMapManager alloc]init];
@@ -35,5 +36,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     
+}
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation fromThridParty:(NSString*)_id
+{
+    return NO;
+}
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url fromThridParty:(NSString*)_id
+{
+    return NO;
 }
 @end
